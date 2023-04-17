@@ -1,0 +1,186 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SedgwickAveDisplay';
+  src: url('../fonts/SedgwickAveDisplay.ttf') format('truetype');
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: #555555;
+  text-align: justify;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color:white;
+}
+
+h2 {
+  color: #38369A;
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+
+}
+
+nav li {
+  padding: 1rem;
+}
+
+header,
+footer,
+nav,
+.offcanvas-bg {
+  background: #38369A;
+  color: white;
+}
+
+header h1 {
+  font-family: 'SedgwickAveDisplay';
+}
+
+section {
+  padding-top:2rem;
+  padding-bottom:2rem;
+  overflow: hidden;
+}
+
+.section-bg {
+  background: #f5f8fd;
+}
+
+.section-title {
+  padding-bottom: 2rem;
+}
+#acerca-de-mi {
+  background: url("../img/bg.jpg") center no-repeat;
+  background-size:cover;
+}
+
+#acerca-de-mi .content h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #173b6c;
+}
+
+#acerca-de-mi .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#acerca-de-mi .content ul li {
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+#acerca-de-mi .content ul strong {
+  margin-right: 0.625rem;
+}
+
+#acerca-de-mi .content ul i {
+  margin-right: 5px;
+  color: #A9DBB8;
+  line-height: 0;
+}
+
+#acerca-de-mi .rrss {
+  color: #38369A;
+}
+
+#acerca-de-mi img {
+  border-radius: 50%;
+  border:4px solid #A9DBB8;
+}
+
+#habilidades .progress {
+  height: 30px;
+  display: block;
+  background: #dedede;
+  border-radius: 0;
+}
+
+#habilidades .progress-bar {
+  height: 30px;
+  background-color: #A9DBB8;
+}
+
+#educacion .educacion-title {
+  font-size: 1.625rem;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #050d18;
+}
+
+#educacion .educacion-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f5297;
+  position: relative;
+}
+
+#educacion .educacion-item h4 {
+  line-height: 1.125rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+#educacion .educacion-item h5 {
+  background: #A9DBB8;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color:black;
+}
+
+#educacion .educacion-item ul {
+  padding-left: 20px;
+}
+
+#educacion .educacion-item ul li {
+  padding-bottom: 10px;
+}
+
+#educacion .educacion-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+#portafolio .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#contacto .btn-bg {
+  background-color: #A9DBB8;
+}
+
+footer {
+  bottom: 0;
+  font-size: 0.75rem;
+  text-align:center;
+}
+
+hr {
+  width: 10%;
+  background-color: #87BCD5;
+  height: 4px !important;
+  border: none;
+}
